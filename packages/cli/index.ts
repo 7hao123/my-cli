@@ -1,5 +1,5 @@
-const p = {
-  name: "hello",
-};
+// const p = {
+//     name: "hello",
+// }
 
-console.log("hello123", p.name);
+// console.log("hello123", p.name);
