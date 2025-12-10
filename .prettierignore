@@ -1,0 +1,9 @@
+# 忽略构建目录
+/dist
+/build
+/out
+
+# 忽略依赖
+/node_modules
+*.md
+*.yaml

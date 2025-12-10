@@ -1,0 +1,26 @@
+{
+  "name": "@mine/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "bin": {
+    "my-cli": "./bin/www.js"
+  },
+  "scripts": {
+    "dev": "tsup -w",
+    "build": "tsup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@mine/cli-core": "workspace:*",
+    "@mine/cli-shared": "workspace:*",
+    "tsup": "^8.2.4"
+  }
+}
