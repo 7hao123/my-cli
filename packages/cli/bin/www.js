@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-require("../dist/index.js");
+const runCLi = require("../dist/index.js").runCLI
+
+runCLi()

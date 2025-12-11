@@ -1,7 +1,7 @@
-import { defineConfig } from "tsup";
+import { defineConfig } from "tsup"
 export default defineConfig({
-  dts: true,
-  entry: ["./index.ts"],
-  format: ["cjs"],
-  outDir: "dist",
-});
+    dts: true,
+    entry: ["./src/index.ts"],
+    format: ["cjs"],
+    outDir: "dist",
+})
