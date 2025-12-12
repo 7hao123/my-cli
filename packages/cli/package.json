@@ -27,6 +27,7 @@
     },
     "dependencies": {
         "commander": "^14.0.2",
-        "fs-extra": "^11.3.2"
+        "fs-extra": "^11.3.2",
+        "giget": "^2.0.0"
     }
 }
