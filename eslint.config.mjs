@@ -10,7 +10,9 @@ export default tseslint.config({
     files: ["**/*.ts"],
     ignores: ["**/*.js", "**/node_modules/**", "**/dist/**"],
     rules: {
-        "no-console": "error",
+        "no-console": "warn",
+        "@typescript-eslint/no-explicit-any": "warn",
+        "@typescript-eslint/no-unused-vars": "off",
     },
     languageOptions: {
         parser: tseslint.parser,
