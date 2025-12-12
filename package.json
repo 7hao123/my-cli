@@ -8,7 +8,8 @@
         "lint:fix": "eslint . --fix",
         "spellcheck": "cspell lint",
         "commit": "git cz",
-        "prepare": "husky"
+        "prepare": "husky",
+        "publish:cli": "pnpm --filter @mine/cli publish"
     },
     "config": {
         "commitizen": {
